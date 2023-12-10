@@ -6,8 +6,8 @@
     "AzureWebJobsFeatureFlags": "EnableWorkerIndexing",
     "SearchApiKey": "",
     "SearchServiceName": "",
-    "SearchIndexName": "good-books",
-    "SearchFacets": "authors*,language_code"
+    "SearchIndexName": "azureblob-index",
+    "SearchFacets": ""
   },
   "Host": {
     "CORS": "*",

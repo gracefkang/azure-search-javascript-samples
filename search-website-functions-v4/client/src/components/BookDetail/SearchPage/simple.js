@@ -47,13 +47,13 @@ export default function BookCardSimple({ document }) {
   return (
     <StyledCard>
       <StyledCardActionArea href={`/details/${document.id}`}>
-        <StyledCardContentImage>
+        {/* <StyledCardContentImage>
           <StyledImg
             image={document.image_url}
             title={document.original_title}
             alt={document.original_title}
           />
-        </StyledCardContentImage>
+        </StyledCardContentImage> */}
         <CardContent>
           <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
             {shortenTitle(document.original_title)}
